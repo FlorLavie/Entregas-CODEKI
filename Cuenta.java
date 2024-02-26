@@ -5,7 +5,7 @@ public class Cuenta {
     private long DNI;
     private double saldo;
 
-    Scanner scanner = new Scanner();
+    Scanner scanner = new Scanner(System.in);
 
     public Cuenta() {
 
@@ -84,4 +84,4 @@ public class Cuenta {
     }
 }
 
-}
+
